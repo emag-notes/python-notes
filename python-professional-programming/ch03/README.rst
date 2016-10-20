@@ -49,6 +49,6 @@ Web ブラウザでコメントを投稿する Web アプリケーションの�
 
   (.venv)$ virtualenv --clear .venv
   (.venv)$ pip install -e .
+  (.venv)$ pip freeze > requirements.txt
 
-
-3. setup.py をリポジトリにコミットする
+3. setup.py と requirements.txt をリポジトリにコミットする
